@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- bootstrap css -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <!-- slick slider -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+
+    <!-- css file -->
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- google font -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- font awesome -->
+
+    <script src="https://use.fontawesome.com/releases/v5.15.2/js/all.js" data-auto-replace-svg="nest"></script>
+
+    <!-- bootstrap script -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="top-image">
+        <div class="top">
+            <nav class="navbar-top">
+                <div class="inner-width">
+                    <div class="logo">
+                        <a href=""><span>Twirgo</span>.com</a>
+                    </div>
+                    <button class="menu-toggler">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <div class="navbar-menu">
+                        <a href="">Training</a>
+                        <a href="">Courts</a>
+                        <a href="">Subscription</a>
+                        <a href="">Lessons</a>
+                        <a href="">Experiences</a>
+                    </div>
+                </div>
+            </nav>
+            <div class="home">
+                <div class="top-head">
+                    <h3>Book your sport</h3>
+                </div>
+
+                <div class="search">
+                    <div class="row g-3 align-items-center row">
+                        <div class="col-auto">
+                            <input type="search" id="search-court" class="form-control"
+                                placeholder="Search court in Milan">
+                        </div>
+                        <div class="col-auto">
+                            <input type="date" id="search-date" class="form-control" placeholder="DATE">
+                        </div>
+                        <div class="col-auto">
+                            <div class="search-btn form-control">
+                                <a href="">Search</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="recent">
+        <div class="slider">
+            <!-- Swiper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide slide-1">
+                        <p>Recently viewed</p>
+                        <p>Recent searches</p>
+                        <p>Favourites</p>
+                    </div>
+                    <div class="swiper-slide slide-2">
+                        <div class="slider-text row">
+                            <div class="slider-text-col">
+                                <p>Mx Dorno</p>
+                                <p><i class="fas fa-map-marker-alt"></i>Sp 19 199 Dorno</p>
+                            </div>
+                            <div class="slider-rating-col">
+                                <p>4.9</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide-3">
+                        <div class="slider-text row">
+                            <div class="slider-text-col">
+                                <p>Mx Dorno</p>
+                                <p><i class="fas fa-map-marker-alt"></i>Sp 19 199 Dorno</p>
+                            </div>
+                            <div class="slider-rating-col">
+                                <p>4.6</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide-4">
+                        <div class="slider-text row">
+                            <div class="slider-text-col">
+                                <p>Mx Dorno</p>
+                                <p><i class="fas fa-map-marker-alt"></i>Sp 19 199 Dorno</p>
+                            </div>
+                            <div class="slider-rating-col">
+                                <p>4.7</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide-5">
+                        <div class="slider-text row">
+                            <div class="slider-text-col">
+                                <p>Mx Dorno</p>
+                                <p><i class="fas fa-map-marker-alt"></i>Sp 19 199 Dorno</p>
+                            </div>
+                            <div class="slider-rating-col">
+                                <p>4.5</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide-6">
+                        <div class="slider-text row">
+                            <div class="slider-text-col">
+                                <p>Mx Dorno</p>
+                                <p><i class="fas fa-map-marker-alt"></i>Sp 19 199 Dorno</p>
+                            </div>
+                            <div class="slider-rating-col">
+                                <p>4.7</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide-7">
+                        <div class="slider-text row">
+                            <div class="slider-text-col">
+                                <p>Mx Dorno</p>
+                                <p><i class="fas fa-map-marker-alt"></i>Sp 19 199 Dorno</p>
+                            </div>
+                            <div class="slider-rating-col">
+                                <p>4.9</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide-8">
+                        <div class="slider-text row">
+                            <div class="slider-text-col">
+                                <p>Mx Dorno</p>
+                                <p><i class="fas fa-map-marker-alt"></i>Sp 19 199 Dorno</p>
+                            </div>
+                            <div class="slider-rating-col">
+                                <p>4.3</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide-9">
+                        <div class="slider-text row">
+                            <div class="slider-text-col">
+                                <p>Mx Dorno</p>
+                                <p><i class="fas fa-map-marker-alt"></i>Sp 19 199 Dorno</p>
+                            </div>
+                            <div class="slider-rating-col">
+                                <p>4.4</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add Arrows -->
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- gym -->
+
+    <div class="gym">
+        <div class="gym-inner">
+            <div class="gym-head row">
+                <div class="gym-text-col">
+                    <h3>Gyms Nearby</h3>
+                    <p>The selection of best gyms near you</p>
+                </div>
+                <div class="gym-button-col">
+                    <div class="gym-btn">
+                        <a href="">SHOW ALL</a>
+                    </div>
+                </div>
+            </div>
+            <div class="gym-content row">
+                <div class="gym-content-col">
+                    <div class="gym-card gym-1">
+                        <div class="gym-con-text gym-1-text row">
+                            <div class="gym-address-col">
+                                <p>Virgin Active</p>
+                                <p><i class="fas fa-map-marker-alt"></i>Corso Como 15</p>
+                                <p><i class="fas fa-star"></i>4.7</p>
+                            </div>
+                            <div class="gym-price-col">
+                                <p>MONTHLY FROM</p>
+                                <h3>$ 55</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gym-content-col">
+                    <div class="gym-card gym-2">
+                        <div class="gym-con-text gym-2-text row">
+                            <div class="gym-address-col">
+                                <p>Virgin Active</p>
+                                <p><i class="fas fa-map-marker-alt"></i>Corso Como 15</p>
+                                <p><i class="fas fa-star"></i>4.7</p>
+                            </div>
+                            <div class="gym-price-col">
+                                <p>MONTHLY FROM</p>
+                                <h3>$ 55</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gym-card gym-3">
+                        <div class="gym-con-text gym-2-text row">
+                            <div class="gym-address-col">
+                                <p>Virgin Active</p>
+                                <p><i class="fas fa-map-marker-alt"></i>Corso Como 15</p>
+                                <p><i class="fas fa-star"></i>4.7</p>
+                            </div>
+                            <div class="gym-price-col">
+                                <p>MONTHLY FROM</p>
+                                <h3>$ 55</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gym-content-col">
+                    <div class="gym-card gym-4">
+                        <div class="gym-con-text gym-2-text row">
+                            <div class="gym-address-col">
+                                <p>Virgin Active</p>
+                                <p><i class="fas fa-map-marker-alt"></i>Corso Como 15</p>
+                                <p><i class="fas fa-star"></i>4.7</p>
+                            </div>
+                            <div class="gym-price-col">
+                                <p>MONTHLY FROM</p>
+                                <h3>$ 55</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gym-card gym-5">
+                        <div class="gym-con-text gym-2-text row">
+                            <div class="gym-address-col">
+                                <p>Virgin Active</p>
+                                <p><i class="fas fa-map-marker-alt"></i>Corso Como 15</p>
+                                <p><i class="fas fa-star"></i>4.7</p>
+                            </div>
+                            <div class="gym-price-col">
+                                <p>MONTHLY FROM</p>
+                                <h3>$ 55</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="court">
+        <div class="court-inner">
+            <div class="court-head row">
+                <div class="court-text-col">
+                    <h3>Featured Courts For You</h3>
+                    <p>Here are the best indoor sports which are trending on Twirgo.com</p>
+                </div>
+                <div class="court-button-col">
+                    <div class="court-btn">
+                        <a href="">SHOW ALL</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="court-content row">
+                <div class="court-col">
+                    <div class="court-image">
+                        <img src="images/court-image.jpg" alt="">
+                    </div>
+                    <div class="court-card-text">
+                        <p class="featured"><i class="fas fa-chart-line"></i>Featured</p>
+                        <p>Tennis Milano</p>
+                        <p>Tennis Court Milano</p>
+                        <p>$ 25/hour</p>
+                    </div>
+                </div>
+                <div class="court-col">
+                    <div class="court-image">
+                        <img src="images/court-image.jpg" alt="">
+                    </div>
+                    <div class="court-card-text">
+                        <p class="featured"><i class="fas fa-chart-line"></i>Featured</p>
+                        <p>Tennis Milano</p>
+                        <p>Tennis Court Milano</p>
+                        <p>$ 25/hour</p>
+                    </div>
+                </div>
+                <div class="court-col">
+                    <div class="court-image">
+                        <img src="images/court-image.jpg" alt="">
+                    </div>
+                    <div class="court-card-text">
+                        <p class="featured"><i class="fas fa-chart-line"></i>Featured</p>
+                        <p>Tennis Milano</p>
+                        <p>Tennis Court Milano</p>
+                        <p>$ 25/hour</p>
+                    </div>
+                </div>
+                <div class="court-col">
+                    <div class="court-image">
+                        <img src="images/court-image.jpg" alt="">
+                    </div>
+                    <div class="court-card-text">
+                        <p class="featured"><i class="fas fa-chart-line"></i>Featured</p>
+                        <p>Tennis Milano</p>
+                        <p>Tennis Court Milano</p>
+                        <p>$ 25/hour</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="match">
+        <div class="court-inner">
+            <div class="court-head row">
+                <div class="court-text-col">
+                    <h3>Featured Courts For You</h3>
+                    <p class="match-white">Here are the best indoor sports which are trending on Twirgo.com</p>
+                </div>
+                <div class="court-button-col">
+                    <div class="court-btn">
+                        <a href="">SHOW ALL</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="court-content row">
+                <div class="court-col">
+                    <div class="court-image">
+                        <img src="https://www.scubadiving.com/sites/scubadiving.com/files/styles/500_1x_/public/scuba-myths-shutterstock_208265431.jpg?itok=sv5KIWuo"
+                            alt="">
+                    </div>
+                    <div class="court-card-text">
+                        <p class="trending"><i class="fas fa-chart-line"></i>Trending</p>
+                        <p>4SUB Diving</p>
+                        <p class="match-white">School diving PADI Milan</p>
+                        <p>Starts from $ 89/month</p>
+                    </div>
+                </div>
+                <div class="court-col">
+                    <div class="court-image">
+                        <img src="https://www.scubadiving.com/sites/scubadiving.com/files/styles/500_1x_/public/scuba-myths-shutterstock_208265431.jpg?itok=sv5KIWuo"
+                            alt="">
+                    </div>
+                    <div class="court-card-text">
+                        <p class="trending"><i class="fas fa-chart-line"></i>Trending</p>
+                        <p>4SUB Diving</p>
+                        <p class="match-white">School diving PADI Milan</p>
+                        <p>Starts from $ 89/month</p>
+                    </div>
+                </div>
+                <div class="court-col">
+                    <div class="court-image">
+                        <img src="https://www.scubadiving.com/sites/scubadiving.com/files/styles/500_1x_/public/scuba-myths-shutterstock_208265431.jpg?itok=sv5KIWuo"
+                            alt="">
+                    </div>
+                    <div class="court-card-text">
+                        <p class="trending"><i class="fas fa-chart-line"></i>Trending</p>
+                        <p>4SUB Diving</p>
+                        <p class="match-white">School diving PADI Milan</p>
+                        <p>Starts from $ 89/month</p>
+                    </div>
+                </div>
+                <div class="court-col">
+                    <div class="court-image">
+                        <img src="https://www.scubadiving.com/sites/scubadiving.com/files/styles/500_1x_/public/scuba-myths-shutterstock_208265431.jpg?itok=sv5KIWuo"
+                            alt="">
+                    </div>
+                    <div class="court-card-text">
+                        <p class="trending"><i class="fas fa-chart-line"></i>Trending</p>
+                        <p>4SUB Diving</p>
+                        <p class="match-white">School diving PADI Milan</p>
+                        <p>Starts from $ 89/month</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="court">
+        <div class="court-inner">
+            <div class="court-head row">
+                <div class="court-text-col">
+                    <h3>Best Experiences</h3>
+                    <p>Here are the best indoor sports which are trending on Twirgo.com</p>
+                </div>
+                <div class="court-button-col">
+                    <div class="court-btn">
+                        <a href="">SHOW ALL</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="court-content row">
+                <div class="court-col">
+                    <div class="court-image">
+                        <img src="images/court-image.jpg" alt="">
+                    </div>
+                    <div class="court-card-text">
+                        <p class="featured"><i class="fas fa-chart-line"></i>Featured</p>
+                        <p>Tennis Milano</p>
+                        <p>Tennis Court Milano</p>
+                        <p>$ 25/hour</p>
+                    </div>
+                </div>
+                <div class="court-col">
+                    <div class="court-image">
+                        <img src="images/court-image.jpg" alt="">
+                    </div>
+                    <div class="court-card-text">
+                        <p class="featured"><i class="fas fa-chart-line"></i>Featured</p>
+                        <p>Tennis Milano</p>
+                        <p>Tennis Court Milano</p>
+                        <p>$ 25/hour</p>
+                    </div>
+                </div>
+                <div class="court-col">
+                    <div class="court-image">
+                        <img src="images/court-image.jpg" alt="">
+                    </div>
+                    <div class="court-card-text">
+                        <p class="featured"><i class="fas fa-chart-line"></i>Featured</p>
+                        <p>Tennis Milano</p>
+                        <p>Tennis Court Milano</p>
+                        <p>$ 25/hour</p>
+                    </div>
+                </div>
+                <div class="court-col">
+                    <div class="court-image">
+                        <img src="images/court-image.jpg" alt="">
+                    </div>
+                    <div class="court-card-text">
+                        <p class="featured"><i class="fas fa-chart-line"></i>Featured</p>
+                        <p>Tennis Milano</p>
+                        <p>Tennis Court Milano</p>
+                        <p>$ 25/hour</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="match">
+        <div class="court-inner">
+            <div class="court-head row">
+                <div class="court-text-col">
+                    <h3>Best Selling Indoor</h3>
+                    <p class="match-white">Here are the best indoor sports which are trending on Twirgo.com</p>
+                </div>
+                <div class="court-button-col">
+                    <div class="court-btn">
+                        <a href="">SHOW ALL</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="court-content row">
+                <div class="court-col">
+                    <div class="court-image">
+                        <img src="https://www.scubadiving.com/sites/scubadiving.com/files/styles/500_1x_/public/scuba-myths-shutterstock_208265431.jpg?itok=sv5KIWuo"
+                            alt="">
+                    </div>
+                    <div class="court-card-text">
+                        <p class="trending"><i class="fas fa-chart-line"></i>Trending</p>
+                        <p>4SUB Diving</p>
+                        <p class="match-white">School diving PADI Milan</p>
+                        <p>Starts from $ 89/month</p>
+                    </div>
+                </div>
+                <div class="court-col">
+                    <div class="court-image">
+                        <img src="https://www.scubadiving.com/sites/scubadiving.com/files/styles/500_1x_/public/scuba-myths-shutterstock_208265431.jpg?itok=sv5KIWuo"
+                            alt="">
+                    </div>
+                    <div class="court-card-text">
+                        <p class="trending"><i class="fas fa-chart-line"></i>Trending</p>
+                        <p>4SUB Diving</p>
+                        <p class="match-white">School diving PADI Milan</p>
+                        <p>Starts from $ 89/month</p>
+                    </div>
+                </div>
+                <div class="court-col">
+                    <div class="court-image">
+                        <img src="https://www.scubadiving.com/sites/scubadiving.com/files/styles/500_1x_/public/scuba-myths-shutterstock_208265431.jpg?itok=sv5KIWuo"
+                            alt="">
+                    </div>
+                    <div class="court-card-text">
+                        <p class="trending"><i class="fas fa-chart-line"></i>Trending</p>
+                        <p>4SUB Diving</p>
+                        <p class="match-white">School diving PADI Milan</p>
+                        <p>Starts from $ 89/month</p>
+                    </div>
+                </div>
+                <div class="court-col">
+                    <div class="court-image">
+                        <img src="https://www.scubadiving.com/sites/scubadiving.com/files/styles/500_1x_/public/scuba-myths-shutterstock_208265431.jpg?itok=sv5KIWuo"
+                            alt="">
+                    </div>
+                    <div class="court-card-text">
+                        <p class="trending"><i class="fas fa-chart-line"></i>Trending</p>
+                        <p>4SUB Diving</p>
+                        <p class="match-white">School diving PADI Milan</p>
+                        <p>Starts from $ 89/month</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="app">
+        <div class="app-inner">
+            <div class="app-head">
+                <p>Sport easier with the app</p>
+                <p>The easiest way to subscribe,book or training a sport</p>
+            </div>
+            <div class="app-image">
+                <img src="images/iphone x.png" alt="">
+            </div>
+            <div class="app-links">
+                    <a href=""><i class="fab fa-apple"></i>App Store</a>
+                    <a href=""><i class="fab fa-google-play"></i>Play Store</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- discount -->
+
+    <div class="discount">
+        <div class="discount-inner row">
+            <div class="discount-col discount-text-col">
+                <p>Earn up</p>
+                <p>20% off per month with your favourite sport</p>
+            </div>
+            <div class="discount-col">
+                <img src="https://static01.nyt.com/images/2020/07/29/sports/29tennis-barty/29tennis-barty-videoSixteenByNineJumbo1600.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+
+    <div id="footer">
+        <div class="footer-inner row">
+            <a href="">Your account</a>
+            <a href="">Tablet version</a>
+            <a href="">Mobile version</a>
+            <a href="">Become an affiliate</a>
+            <a href="">Twirgo.com for business</a>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- swiper js -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- js file -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
