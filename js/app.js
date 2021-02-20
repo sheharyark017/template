@@ -17,6 +17,25 @@ jQuery(document).ready(function($) {
     });
 });
 
+$(".home").on("click",function(){
+  $(".menu-toggler").removeClass("active");
+  $(".navbar-menu").removeClass("active");
+});
+
+$(".click").on("click",function(){
+  $(".menu-toggler").removeClass("active");
+  $(".navbar-menu").removeClass("active");
+});
+
+$(".navbar-menu a").on("click",function(){
+  $(".menu-toggler").removeClass("active");
+  $(".navbar-menu").removeClass("active");
+});
+
+
+
+
+
 var swiper = new Swiper('.swiper-container', {
     slidesPerView: 1,
     spaceBetween: 10,
